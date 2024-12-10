@@ -82,6 +82,12 @@ document.querySelector('button').addEventListener('click', () => {
 });
 
 document.querySelector('.generate-btn').addEventListener('click', () =>{
+    const dice = document.getElementById('dice');
+    dice.classList.add('spin');
+    
+    setTimeout(() => {
+        dice.classList.remove('spin');
+    }, 1000)
      const name = document.querySelector('.generate-btn').dataset.name;
     getAndDisplayWish(name);
 });
