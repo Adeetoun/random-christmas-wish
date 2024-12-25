@@ -7,7 +7,6 @@
 
 body{
     background: linear-gradient(135deg, #4CAF50, #FF0000);
-    color: #ffffff;
     font-family: 'Manrope';
     font-weight: 800;
     display: flex;
@@ -21,9 +20,8 @@ body{
     width: 50%;
     margin: auto;
     padding: 10px;
-    background-color: rgba(255, 255, 255, 0.5);
-   /* hsl(217, 19%, 38%);*/
-    border: 1px solid hsl(217, 19%, 38%);
+    background-color:hsl(128, 70%, 24%);
+    border: 1px solid hsl(128, 70%, 24%);
     border-radius: 15px;
     height: 40vh;
 }
@@ -83,8 +81,8 @@ i{
     margin: auto;
     margin: 10px;
     padding: 10px;
-    background-color: hsl(217, 19%, 38%);
-    border: 1px solid hsl(217, 19%, 38%);
+    background-color: hsl(128, 70%, 24%);
+    border: 1px solid hsl(128, 70%, 24%);
     border-radius: 15px;
     position: absolute;
     height: 40vh;
